@@ -1,0 +1,4 @@
+==== syarat untuk untuk bahasa c++ di sublime text ====
+
+[1]. download MinGW (32/64 bit)
+[2]. text editor sublime text

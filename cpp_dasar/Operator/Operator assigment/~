@@ -1,0 +1,32 @@
+// call library
+#include <iostream>
+#include <string>
+using namespace std;
+
+	// create some class 
+	class Human{
+		// create some data member / properties and using public accsess modifier
+		public:
+ 			double age;
+			string name;
+			string gender;
+		
+		// create some constructor from class with parameter
+		Human(double inputAge, string inputName, string	inputGender){
+		// recall data member with class name
+		Human.name = inputName;
+		Human.age = inputAge;
+		Human.gender = inputGender;
+		
+		// call / output all data from class with data member and with static style call
+		cout << "Name: \t" << Human::name << endl;
+		cout << "Gender: \t" << Human::age << endl;
+		cout << "Age: \t" << Human::age << endl;
+	}	
+};
+
+int main(){
+	// inizialitation object and fill it with value in parameters
+	Human human1 = Human(27, "Junjung Hasudungan Sitorus", "Man");
+	return 0;
+}

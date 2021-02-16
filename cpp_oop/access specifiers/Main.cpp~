@@ -86,3 +86,4 @@ int main(){
 	fruit1.showDataFruit();
 	return 0;
 }
+

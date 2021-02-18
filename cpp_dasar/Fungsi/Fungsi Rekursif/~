@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+
+// definisi fungsi 
+ long int faktorial(int a);
+
+int main(){
+	return 0;
+}
+
+long int faktorial(int a){
+	if(a < 1){
+		return a;
+	}
+}

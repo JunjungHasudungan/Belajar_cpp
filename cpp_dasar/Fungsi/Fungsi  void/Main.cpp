@@ -4,11 +4,12 @@ using namespace std;
 void show(); // declaration function
 void showName( string name );
 void add( int a, int b);
-	int main(){
+
+int main(){
 	cout << "\t\t === Belajar menggunakan function void ===\n" << endl;
 	show();
 	showName("function ini menggunakan parameter");
-	add(3,4);
+	add(3, 4);
 	
 	return 0;		
 }

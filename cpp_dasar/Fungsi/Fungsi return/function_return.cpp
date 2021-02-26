@@ -2,7 +2,7 @@
 
 using namespace std;
 // create some functions return with parameters
- 	int tambah(int a, int b){
+ 	int tambah(int a, int b = 0){
 	 	int c; // using new variable to container addition result
 	 	c = a + b;
 		 return c;
@@ -21,7 +21,7 @@ using namespace std;
 	
 	int bagi(int d, int e){
 		int f; // using new variable to container division result
-		f = d - e;
+		f = d /  e;
 		return f;
 	
 	}

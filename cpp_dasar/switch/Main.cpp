@@ -7,6 +7,9 @@ int main(){
 	int day = 4;
 	cout << "\t\t === Belajar menggunakan switch ===" << endl;
 	
+	cout <<"Masukkan angka: ";
+	cin >> day;
+	
 	switch(day){
 		case 1:
 			cout << "Minggu" <<endl;

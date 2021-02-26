@@ -7,12 +7,10 @@ using namespace std;
 class Human{
 // access specifiers
 	public: 
-// data member
-	string name; 	
-	double age;
-	string gender;
+		string name; 	
+		double age;
+		string gender;
 	
-// create contruct with public keyword
 	public:
 	Human(string inputName, double inputAge, string inputGender){
 		Human::name = inputName;

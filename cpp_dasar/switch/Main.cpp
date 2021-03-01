@@ -11,7 +11,7 @@ int main(){
 	cin >> day;
 	
 	switch(day){
-		case 1:
+		case minggu:
 			cout << "Minggu" <<endl;
 			break;
 		case 2:
